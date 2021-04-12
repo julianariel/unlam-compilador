@@ -1,0 +1,17 @@
+DECVAR
+    num1: FLOAT
+    num2: INT
+    cad: STRING
+ENDDEC
+
+num1:=15.5
+cad:="hola mundo"
+
+if(num2==num1)
+{
+num2:=25
+}
+else
+{
+num1:=2.5
+}

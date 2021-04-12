@@ -1,0 +1,12 @@
+Compilador_tp/lex.yy.c
+lex.yy.c
+primera.exe
+compilador.exe
+*.swp
+
+/Compilador_tp/y.output
+/Compilador_tp/y.tab.c
+/Compilador_tp/y.tab.h
+/Compilador_tp/simbolos.c
+/Compilador_tp/simbolos.h
+/Compilador_tp/ts.txt

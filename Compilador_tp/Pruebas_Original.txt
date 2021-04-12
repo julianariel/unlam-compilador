@@ -1,0 +1,39 @@
+DECVAR
+    num1,num3,num4: FLOAT
+    num2: FLOAT
+    cad: STRING
+ENDDEC
+
+num1:=num4:=3
+num2:=num3:=10
+cad:="hola mundo"
+if NOT (num1>1 && num2>22)
+{
+    num2:=num2+1
+    num1:=num1-1
+}
+
+
+WRITE num1
+WRITE num2
+
+while(num1>0)
+{
+    num1:=num1-1
+    num3:=AVG([1,1,num3])
+    num4:=num4+1
+}
+
+WRITE "Ingrese un numero"
+READ num2
+
+-/Comentario/-
+if (num2 > 10)
+{
+    cad:="chau mundo"
+}
+
+WRITE cad
+WRITE num2
+WRITE num3
+WRITE num4
